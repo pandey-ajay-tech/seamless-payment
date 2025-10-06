@@ -30,27 +30,32 @@ Users can enter an amount, create a transaction, fetch QR & UPI link, check stat
 
 ## 🛠 Setup Instructions
 
-1. Clone the repository  
+#### Clone the repository  
    ```bash
    git clone https://github.com/pandey-ajay-tech/seamless-payment.git
    cd seamless-payment
 
 
- 2. Install Composer dependencies
+ #### Install Composer dependencies
 
     composer install
 
-3. Configure .env file
+#### Configure .env file
     Copy .env.example to .env and set:
     
     APP_URL=http://127.0.0.1:8000
     MERCHANT_KEY=your_sandbox_merchant_key
 
 
-  4. Serve the application
+  ### Serve the application
 
      php artisan serve
 
+
+
+### Find the video of assignment output 
+
+    file name :  Seamless-Payment-Demo.mp4
 
 
 🔄 How to Test / Use
@@ -61,5 +66,6 @@ Users can enter an amount, create a transaction, fetch QR & UPI link, check stat
     You will see QR + UPI Link, and status badge
     Click “Check status” to poll until status becomes “success”
     On success, toast/banner appears and then page reloads
+
 
 
